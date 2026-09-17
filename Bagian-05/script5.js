@@ -10,6 +10,7 @@ const products = [
     {
         id: 2,
         title: "Smartphone",
+    
         price: 800,
         rating: 4.2,
         stock: 15,
@@ -51,6 +52,8 @@ function getStatistics(products) {
         averageRating
     };
 }
+
+
 
 const statistics = getStatistics(products);
 

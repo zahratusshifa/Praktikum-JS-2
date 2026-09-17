@@ -1,4 +1,4 @@
-const numbers = [5, 3, 8, 1];
+const numbers = [5, 3, 8, 1 ];
 
 const ascending = [...numbers].sort((a, b) => a - b);
 const descending = [...numbers].sort((a, b) => b - a);

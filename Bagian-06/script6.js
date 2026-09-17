@@ -8,6 +8,7 @@ function linearSearch(array, target) {
     return -1;
 }
 
+
 const numbers = [10, 20, 30, 40, 50];
 
 console.log("Latihan 6.1");
@@ -27,7 +28,7 @@ function findProductById(products, id) {
         }
     }
 
-    return -1;
+    return -1 ;
 }
 
 console.log("Latihan 6.2");
